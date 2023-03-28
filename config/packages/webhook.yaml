@@ -1,0 +1,5 @@
+framework:
+    webhook:
+        routing:
+            postmark: # path: /webhook/postmark
+                service: mailer.webhook.request_parser.postmark
