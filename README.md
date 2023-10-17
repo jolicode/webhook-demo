@@ -2,7 +2,7 @@
 
 This repository is a demonstration application for Symfony Webhook usage. 
 
-It's related to [🇫🇷 this blog post](https://jolicode.com/blog/symfony-webhook-ou-comment-simplifier-la-gestion-d-evenements-externes) on jolicode.com
+It's related to [🇫🇷 this blog post](https://jolicode.com/blog/symfony-webhook-et-remoteevent-ou-comment-simplifier-la-gestion-devenements-externes) on jolicode.com
 
 ## Pre-requisites
 
