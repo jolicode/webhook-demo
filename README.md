@@ -13,7 +13,7 @@ A ready to use (DNS entries verified) [Postmark account](https://postmarkapp.com
 Install dependencies
 
 ```shell
-$ symfony composer install
+symfony composer install
 ```
 
 Replace `API_KEY` with your API Key in .env file
@@ -25,17 +25,17 @@ MAILER_DSN=postmark+api://API_KEY@default
 Start the database and run migrations
 
 ```shell
-$ docker-compose up -d database
+docker-compose up -d database
 ```
 
 ```shell
-$ symfony console d:m:m -n
+symfony console d:m:m -n
 ```
 
 Serve the application
 
 ```shell
-$ symfony serve -d
+symfony serve -d
 ```
 
 Open [127.0.0.1:8000](http://127.0.0.1:8000)
